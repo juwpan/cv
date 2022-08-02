@@ -1,0 +1,26 @@
+/* IMG */
+.icons {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.portait {
+  max-width: 250px;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
+.icon {
+  margin-right: .5rem;
+}
+
+.icon-enducation {
+  display: flex;
+  align-items: center;
+}
+
+.icon-enducation-one {
+  display: block;
+}

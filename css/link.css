@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: #4472C4;
+}
+
+a.social {
+  color: rgb(255, 255, 255);
+}
+
+a.social:hover {
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.btn.btn-primary:hover {
+  text-decoration: none;
+}
+
+a.btn.btn-success:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+/* LEFT COLUMN */
+.left-column {
+  grid-area: left-column;
+  padding: 50px;
+  background-color: #4472C4;
+  color: white;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.skills {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 0 0 1rem;
+}

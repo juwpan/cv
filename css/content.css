@@ -1,0 +1,30 @@
+/* CONTENT */
+.content {
+  grid-area: content;
+  padding: 50px;
+}
+
+.content-two {
+  padding: 50px;
+}
+
+.experience-list {
+  list-style-type: circle;
+}
+
+.dividing-line {
+  border-bottom: 0.1px solid #d2d2d2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dividing-line-content {
+  border-bottom: 10px solid #d0d0d0;
+}
+
+.dividing-line-content-small {
+  border-bottom: 1px solid #ffffff;
+}
+
+.dividing-line-education {
+  border-bottom: 0.5px solid #e1dfdf;
+}

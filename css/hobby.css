@@ -1,0 +1,22 @@
+ul.hobby{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.hobby-icon {
+  font-size: 35px;
+  background: #4472C4;
+  color: #ffffff;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+  margin: auto;
+}

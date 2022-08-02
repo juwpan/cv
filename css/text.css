@@ -1,0 +1,63 @@
+/* TEXT */
+p {
+  margin: 0 0 1rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: #4472C4;
+}
+
+.text-black {
+  color: black;
+  font-size: 15px;
+}
+
+.text-small {
+  font-size: 20px;
+}
+
+.text-darkred-grey {
+  color: #434343;
+  font-size: 20px;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-dark {
+  color: #030739;
+  font-size: 30px;
+}
+
+.text-darkblue {
+  color: #002060;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-very-small {
+  font-size: 10px;
+}
+
+a.text-link-black {
+  color: black;
+}
+
+.description {
+  cursor: pointer;
+}
