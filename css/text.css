@@ -10,7 +10,9 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 1rem;
+  font-size: 25px;
+  margin: 0 0 10px;
+  padding-bottom: 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -51,7 +53,7 @@ h2 {
 }
 
 .text-very-small {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 a.text-link-black {
@@ -60,4 +62,8 @@ a.text-link-black {
 
 .description {
   cursor: pointer;
+}
+
+.text-centr {
+  text-align: center;
 }

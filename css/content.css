@@ -1,6 +1,6 @@
 /* CONTENT */
 .content {
-  grid-area: content;
+  /* grid-area: content; */
   padding: 50px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .dividing-line-content-small {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
 }
 
 .dividing-line-education {

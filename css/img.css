@@ -5,11 +5,11 @@
 }
 
 .portait {
-  max-width: 250px;
-  margin: auto;
-  display: block;
-  margin-bottom: 50px;
-  border-radius: 50%;
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  /* margin-bottom: 50px;
+  border-radius: 50%; */
 }
 
 .icon {

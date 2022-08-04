@@ -4,13 +4,13 @@ a {
 }
 
 a.social {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 a.social:hover {
-  border: 10px solid rgb(0, 0, 0);
+  border: 1px solid rgb(254, 254, 254);
   border-radius: 50%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(45, 185, 203);
   text-decoration: none;
 }
 

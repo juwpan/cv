@@ -1,0 +1,28 @@
+@media screen and (max-width: 380px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .infos {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  ul.hobby {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 10px
+  }
+
+}
