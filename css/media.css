@@ -1,4 +1,33 @@
-@media screen and (max-width: 380px) {
+@media all and (max-width: 770px) {
+  .infos {
+    grid-template-columns: 1fr;
+    padding: 30px;
+    padding-left: 100px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .infos {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  ul.hobby {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2em;
+  }
+}
+
+@media all and (max-width: 410px) {
+  ul.hobby {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media all and (max-width: 380px) {
   h2 {
     font-size: 20px;
   }
@@ -19,10 +48,14 @@
   ul.hobby {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .circle {
+    margin: 0;
   }
 
   button {
     margin-top: 10px
   }
-
 }
