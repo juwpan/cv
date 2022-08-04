@@ -1,8 +1,20 @@
-@media all and (max-width: 770px) {
+@media (max-width: 750px) {
+  .container.indent-container {
+    margin-top: 50px;
+    padding: 40px;
+  }
+
   .infos {
     grid-template-columns: 1fr;
     padding: 30px;
     padding-left: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container.indent-container {
+    margin-top: 0;
+    padding: 40px;
   }
 }
 
@@ -19,7 +31,11 @@
   }
 }
 
-@media all and (max-width: 410px) {
+@media (max-width: 410px) {
+  .container.indent-container {
+    padding: 15px;
+  }
+
   ul.hobby {
     display: flex;
     flex-direction: column;
@@ -27,7 +43,7 @@
   }
 }
 
-@media all and (max-width: 380px) {
+@media (max-width: 380px) {
   h2 {
     font-size: 20px;
   }
@@ -54,8 +70,25 @@
   .circle {
     margin: 0;
   }
+}
 
-  button {
-    margin-top: 10px
+@media (max-width: 320px) {
+  .container.indent-container {
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 300px) {
+  .container.indent-container {
+    padding: 10;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  div.section.indent-big {
+    padding: 20px;
   }
 }

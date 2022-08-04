@@ -8,6 +8,10 @@
   padding: 50px;
 }
 
+.section {
+  margin-bottom: 1.5rem;
+}
+
 .experience-list {
   list-style-type: circle;
 }

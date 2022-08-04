@@ -16,3 +16,18 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
   transition: .5s;
 }
+
+.wrap-text-small {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  border-radius: 10%;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #edda0a 0%, #d61821 51%, #d97715 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+
