@@ -36,10 +36,9 @@
     padding: 15px;
   }
 
-  ul.hobby {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  .circle {
+    height: 80px;
+    width: 80px;
   }
 }
 
@@ -59,12 +58,6 @@
   .infos {
     grid-template-columns: 1fr;
     padding: 20px;
-  }
-
-  ul.hobby {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
   }
 
   .circle {
@@ -90,5 +83,9 @@
 
   div.section.indent-big {
     padding: 20px;
+  }
+
+  ul.hobby {
+    grid-row-gap: 1em;
   }
 }

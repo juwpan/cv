@@ -1,9 +1,4 @@
-.gorund-color {
-  padding: 50px;
-  background-color: #4472C4;
-  color: white;
-}
-
+/* COLOR */
 .wrap-text {
   text-align: center;
   display: inline-block;
@@ -30,4 +25,3 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
   transition: .5s;
 }
-
