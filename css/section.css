@@ -1,0 +1,39 @@
+
+section {
+  border-top: 1mm dotted #444;
+  padding: 4mm 0 0 0;
+}
+
+section:first-child {
+  border-top: 0;
+  padding: 8mm 0 0 0;
+}
+
+section:last-child {
+  padding: 4mm 0 0 0;
+}
+
+.sectionTitle {
+  float: left;
+  width: 50mm;
+  margin-bottom: 6mm;
+}
+
+.sectionContent {
+  float: right;
+  width: 141mm;
+}
+
+.sectionTitle h1 {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18pt;
+  color: #da2d2d;
+}
+
+.sectionContent h2 {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 18pt;
+}

@@ -1,0 +1,41 @@
+
+@page {
+  size: 210mm 297mm;
+  margin: 0;
+}
+
+@media print {
+
+  /* Print settings */
+  html,
+  body,
+  page {
+    width: 210mm;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+  .no-overflow {
+    overflow: hidden;
+  }
+
+  #Header,
+  #Footer {
+    display: none !important;
+  }
+
+  button {
+    display: none;
+  }
+
+}
+
+@media print {
+
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
