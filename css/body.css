@@ -304,3 +304,16 @@ li {
   color: #444;
   line-height: 15pt;
 }
+
+a.color {
+  color: #000;
+}
+
+a.color:hover {
+  color: #da2d2d;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+i.fa.fa-check-square-o {
+  color: #da2d2d;
+}
